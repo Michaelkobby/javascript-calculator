@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="numbers">
+            <!-- <input type="text" id="answerbox" name="textbox" class="calculator__screen" /> -->
+            <div class="calculator__screen">0</div>
+            <table class="calculator__keys">
+                <tr>
+                    <td><button id="percent">%</button></td>
+                    <td><button data-action="clear">CE</button></td>
+                    <td><button  data-action="clear">AC</button></td>
+                    <td><button class="key--operator" data-action="divide">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button id="seven">7</button></td>
+                    <td><button id="eight">8</button></td>
+                    <td><button id="nine">9</button></td>
+                    <td><button class="key--operator" data-action="multiply">×</button></td>
+                </tr>
+                <tr>
+                    <td><button id="four">4</button></td>
+                    <td><button id="five">5</button></td>
+                    <td><button id="six"> 6</button></td>
+                    <td><button class="key--operator" data-action="subtract">–</button></td>
+                </tr>
+                <tr>
+                    <td><button id="one">1</button></td>
+                    <td><button id="two">2</button></td>
+                    <td><button id="three">3</button></td>
+                    <td><button class="key--operator" data-action="add">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="plusorminus">±</button></td>
+                    <td><button id="zero">0</button></td>
+                    <td><button  data-action="decimal">.</button></td>
+                    <td><button class="key--equal" data-action="calculate">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

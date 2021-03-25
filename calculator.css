@@ -1,0 +1,36 @@
+body{
+    background: #141414;
+}
+button{
+    background:#1f1f1f;
+    color: whitesmoke;
+    border: none;
+    width: 40px;
+    align-content: center;
+    height: 20px;
+}
+
+button:hover{
+    background: #343434;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+/* .screen{
+} */
+.calculator__screen{
+    font-weight: 900;
+    height:28px;
+    width: 172px;
+    margin-left:2px;
+    margin-right: 2px;
+    border: none;
+    background: whitesmoke;
+}
+input[type=text]:focus{
+    border: none;
+}
